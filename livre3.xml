@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ns1:livre titre="titre livre" xmlns:ns1="http://www.masociete.com" xmlns:ns2="http://www.monentreprise.com">
+    <ns1:sections>
+        <ns1:section titre ="titre section 1">
+            <ns1:chapitres>
+                <ns1:chapitre titre="titre chapitre 3">
+                    <ns1:paragraphes>
+                        <ns1:paragraphe> texte paragraphe 1 </ns1:paragraphe>
+                        <ns1:paragraphe> texte paragraphe 2 </ns1:paragraphe>
+                    </ns1:paragraphes>  
+                </ns1:chapitre>
+                <ns1:chapitre titre="titre chapitre 3">
+                    <ns1:paragraphes>
+                        <ns1:paragraphe> texte paragraphe 3 </ns1:paragraphe>
+                        <ns1:paragraphe> texte paragraphe 4 </ns1:paragraphe>
+                    </ns1:paragraphes>
+                </ns1:chapitre>
+            </ns1:chapitres>            
+        </ns1:section>
+        <ns2:section titre ="titre section 1">
+            <ns2:chapitres>
+                <ns2:chapitre titre="titre chapitre 3">
+                    <ns2:paragraphes>
+                        <ns2:paragraphe> texte paragraphe 5 </ns2:paragraphe>
+                        <ns2:paragraphe> texte paragraphe 6 </ns2:paragraphe>
+                    </ns2:paragraphes>  
+                </ns2:chapitre>
+                <ns2:chapitre titre="titre chapitre 4">
+                    <ns2:paragraphes>
+                        <ns2:paragraphe> texte paragraphe 7 </ns2:paragraphe>
+                        <ns2:paragraphe> texte paragraphe 8 </ns2:paragraphe>
+                    </ns2:paragraphes>
+                </ns2:chapitre>
+            </ns2:chapitres>    
+        </ns2:section>
+    </ns2:sections> 
+    <ns1:auteurs>
+        <ns1:auteur nom="nom auteur1" preom="prenom auteur 1">
+        </auteur>
+        <ns1:auteur nom="nom auteur2" preom="prenom auteur 2">
+        </ns1:auteur>
+    </ns1:auteurs>          
+</ns1:livre>    
